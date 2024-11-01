@@ -1,0 +1,8 @@
+{
+    "postNotFind": "Le post demandé est introuvable",
+    "postCreated": "Le post a été crée !",
+    "notAuthor": "Vous n'êtes pas l'auteur de cet article.",
+    "notImageToUpload": "Il n'y a aucune image a téléchargée",
+    "errorDuringUpload": "Erreur durant le téléchargement de l'image",
+    "imageIsNotFound": "L'image n'a pas été trouvée !"
+}

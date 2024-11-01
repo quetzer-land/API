@@ -1,0 +1,11 @@
+{
+  "greeting": "Hello world",
+  "notConnected": "You're not connected !",
+  "username_modify_too_short": "The user name must be longer than 4 characters.",
+  "username_modify_too_long": "The user name must be shorter than 12 characters.",
+  "invalid_mail_adress": "Invalid e-mail adress.",
+  "suspended_account": "Your account is suspended. You can't do that.",
+  "lang_modify": "The language must be equal to 2 characters",
+  "biography_too_long": "The biography must be shorter than 200 characters.",
+  "password_too_short": "The password must be longer than 5 characters."
+}

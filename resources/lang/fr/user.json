@@ -1,0 +1,9 @@
+{
+    "userNotFound": "L'utilisateur n'a pas été trouvé !",
+    "adminError": "Vous êtes un admin, votre compte ne peut pas être supprimé !",
+    "imageDeleted": "Image supprimée avec succès !",
+    "errorInServer": "Erreur dans le serveur",
+    "adminOnly": "Seul un administrateur peut effectuer cette opération.",
+    "deleteAdminOrMods": "Vous ne pouvez pas supprimer un administrateur ou modérateur",
+    "onlyMod": "Seul un modérateur peut faire effectuer cette opération."
+}

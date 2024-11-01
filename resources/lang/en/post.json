@@ -1,0 +1,8 @@
+{
+    "postNotFind": "The request post cannot be find",
+    "postCreated": "The post has been created !",
+    "notAuthor": "You're not the author of this post",
+    "notImageToUpload": "There is not image to upload",
+    "errorDuringUpload": "Error during image uploadding",
+    "imageIsNotFound": "The image cannot be found !"
+}
