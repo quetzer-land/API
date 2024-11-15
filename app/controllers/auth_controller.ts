@@ -5,13 +5,14 @@ import logger from '@adonisjs/core/services/logger'
 import i18nManager from '@adonisjs/i18n/services/main'
 
 export default class AuthController {
-    async register({ request, response }: HttpContext) {
+    async register({ request }: HttpContext) {
         const payload = await request.validateUsing(registerValidator)
 
         const user = await User.create(payload)
 
         logger.info('A user has been created with the username : %s', payload.username)
-        return response.created(user)
+        const token = await User.accessTokens.create(user)
+        return token
     }
 
     async login({ request }: HttpContext) {
