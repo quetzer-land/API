@@ -22,6 +22,7 @@ const mailConfig = defineConfig({
         user: env.get('SMTP_USERNAME') || "",
         pass: env.get('SMTP_PASSWORD') || "",
       },
+      requireTLS: true,
     }),
 
   },

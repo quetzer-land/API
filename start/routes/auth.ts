@@ -6,4 +6,7 @@ router.group(() => {
     router.post('register', [AuthController, 'register'])
     router.post('login', [AuthController, 'login'])
     router.delete('logout', [AuthController, 'logout']).use(middleware.auth())
+    router.group(() => {
+        router.post('forgot-password/:email', [AuthController, 'forgotPassword'])
+    })
 }).prefix('auth')
